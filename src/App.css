@@ -181,10 +181,26 @@ p {
   color: white;
   border: 2px solid  transparent;
 }
-.ant-btn{
-  display: none !important;
+@media screen and (max-width:992px) {
+  .button-h{
+    width: 180px !important;
+    padding: 10px 0 !important;
+    font-size: 13px !important;
+
+  }
+}
+@media screen and (max-width:443px) {
+  .button-h{
+    width: 150px !important;
+    padding: 8px 0 !important;
+    font-size: 10px !important;
+
+  }
 }
 
+.bg-2{
+  background-color: #FF9320 !important;
+}
 .icons i{
   cursor: pointer;
 }

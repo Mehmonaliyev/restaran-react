@@ -5,8 +5,9 @@ import { AiFillGithub, AiFillGoogleCircle } from 'react-icons/ai';
 function Kirish() {
     return (
         <>
-         <div className='mt-5 pt-5'>
-                <div className="mb-3">
+         <div className='mt-5 pt-5 container w-50 '>
+               <div className='mt-5'>
+               <div className="mb-3">
                     <label for="formGroupExampleInput" className="form-label color">Login</label>
                     <input required type="text" className="form-control" id="formGroupExampleInput" placeholder="Login..." />
                 </div>
@@ -27,9 +28,10 @@ function Kirish() {
                 <div className='d-flex justify-content-between align-items-center'>
                     <p>Tarmoqda yangimisiz...</p>
                     <NavLink to='/login'>
-                    <button className='btn btn-warning bg text-white' >Ro'yhatdan o'tish</button>
+                    <button className='btn btn-warning bg-2 text-white' >Ro'yhatdan o'tish</button>
                     </NavLink>
                 </div>
+               </div>
             </div>
         </>
     )

@@ -5,12 +5,8 @@ function Login() {
     return (
         <>
 
-
-           
-
-
-            <div className='mt-5 pt-5' >
-                <div className="row g-3">
+            <div className='mt-5 pt-5 container w-50' >
+                <div className="row g-3 mt-5">
                     <div className="col-md-6">
                         <label className="form-label color">Ism</label>
                         <input required type="text" className="form-control" id="inputEmail4" placeholder='ism' />
